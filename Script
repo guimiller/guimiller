@@ -1,0 +1,23 @@
+#!/bin/bash
+
+VAR=""
+VAR1=""
+
+if [[ "$VAR" = "$VAR1" ]]
+then
+ echo "São iguais"
+
+fi
+
+if [[ "$VAR" = "$VAR1" ]]
+then
+ echo "São iguais."
+
+fi
+
+echo "========== For 2 (seq)"
+
+for i in $(seq 10)
+do
+ echo $i
+done
