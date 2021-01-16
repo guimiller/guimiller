@@ -1,0 +1,12 @@
+!/bin/bash
+
+comando_1=$(rmdir aula23)
+comando_2=$(ls -l /)
+comando_3=$(mkdir aula300 aula400 aula500)
+
+```
+    echo "$comando_1"
+    echo "$comando_2"
+    echo "$comando_3"
+
+```
